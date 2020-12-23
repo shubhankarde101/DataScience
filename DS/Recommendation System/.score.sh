@@ -1,0 +1,1 @@
+echo "FS_SCORE:$(python3 score.py)%"
