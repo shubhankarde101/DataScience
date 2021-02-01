@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+  <br>
+    <div>
+     {{ prediction_text }}
+    </div>
+  <br>
+ <div class="login">
+  <br>
+  <br>
+	<h1>Predict Income</h1>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="age" placeholder="Age(in numeric)" required="required" />
+        <input type="text" name="fnlwgt" placeholder="Fnl Wgt(in numeric)" required="required" />
+        <select name="education" placeholder="Education" required="required">
+            <option value="Select">Select Education from Dropdown</option>
+            <option value="edu_10th">edu_10th</option>
+            <option value="edu_11th">edu_11th</option>
+            <option value="edu_12th">edu_12th</option>
+            <option value="edu_1st-4th">edu_1st-4th</option>
+            <option value="edu_5th-6th">edu_5th-6th</option>
+            <option value="edu_7th-8th">edu_7th-8th</option>
+            <option value="edu_9th">edu_9th</option>
+            <option value="edu_Assoc-acdm">edu_Assoc-acdm</option>
+            <option value="edu_Assoc-voc">edu_Assoc-voc</option>
+            <option value="edu_Bachelors">edu_Bachelors</option>
+            <option value="edu_Doctorate">edu_Doctorate</option>
+            <option value="edu_HS-grad">edu_HS-grad</option>
+            <option value="edu_Masters">edu_Masters</option>
+            <option value="edu_Preschool">edu_Preschool</option>
+            <option value="edu_Prof-school">edu_Prof-school</option>
+            <option value="edu_Some-college">edu_Some-college</option>
+        </select>
+		<input type="text" name="educational-num" placeholder="Education Num(in numeric)" required="required" />
+
+		<select name="marital-status" placeholder="Marital-Status " required="required">
+            <option value="Select">Select Marital status from Dropdown</option>
+            <option value="Divorced">Divorced</option>
+            <option value="Married-AF-spouse">Married-AF-Spouse</option>
+            <option value="Married-civ-spouse">Married-civ-Spouse</option>
+            <option value="Married-spouse-absent">Married-spouse-absent</option>
+            <option value="Never-married">Never-married</option>
+            <option value="Separated">Separated</option>
+            <option value="Widowed">Widowed</option>
+        </select>
+
+		<select name="occupation" placeholder="Occupation" required="required">
+            <option value="Select">Select Occupation from Dropdown</option>
+            <option value="Exec-managerial">Exec-managerial</option>
+            <option value="Other-service">Other-service</option>
+            <option value="Transport-moving">Transport-moving</option>
+            <option value="Adm-clerical">Adm-clerical</option>
+            <option value="Machine-op-inspct">Machine-op-inspct</option>
+            <option value="Sales">Sales</option>
+            <option value="Handlers-cleaners">Handlers-cleaners</option>
+            <option value="Farming-fishing">Farming-fishing</option>
+            <option value="Protective-serv">Protective-serv</option>
+            <option value="Prof-specialty">Prof-specialty</option>
+            <option value="Craft-repair">Craft-repair</option>
+            <option value="Others">Others</option>
+            <option value="Tech-support">Tech-support</option>
+            <option value="Priv-house-serv">Priv-house-serv</option>
+            <option value="Armed-Forces">Armed-Forces</option>
+        </select>
+
+        <select name="relationship" placeholder="Relationship" required="required">
+            <option value="Select">Select Relationship from Dropdown</option>
+            <option value="Not-in-family">Not-in-family</option>
+            <option value="Own-child">Own-child</option>
+            <option value="Husband">Husband</option>
+            <option value="Wife">Wife</option>
+            <option value="Unmarried">Unmarried</option>
+            <option value="Other-relative">Other-relative</option>
+        </select>
+
+		<select name="race" placeholder="Race" required="required">
+            <option value="Select">Select Race from Dropdown</option>
+            <option value="White">White</option>
+            <option value="Black">Black</option>
+            <option value="Asian-Pac-Islander">Asian-Pac-Islander</option>
+            <option value="Other">Other</option>
+            <option value="Amer-Indian-Eskimo">Amer-Indian-Eskimo</option>
+        </select>
+
+		<select name="gender" placeholder="Gender" required="required">
+            <option value="Select">Select Gender from Dropdown</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+		<input type="text" name="capital-gain" placeholder="Capital Gain(in numeric)" required="required" />
+		<input type="text" name="capital-loss" placeholder="Capital Loss(in numeric)" required="required" />
+		<input type="text" name="hours-per-week" placeholder="Hours per Week(in numeric)" required="required" />
+
+		 <select name="native-country" placeholder="Native-Country" required="required">
+            <option value="Select">Select Native-Country from Dropdown</option>
+            <option value="United-States">United-States</option>
+            <option value="Japan">Japan</option>
+            <option value="Germany">Germany</option>
+            <option value="Poland">Poland</option>
+            <option value="Taiwan">Taiwan</option>
+            <option value="Yugoslavia">Yugoslavia</option>
+            <option value="Canada">Canada</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Italy">Italy</option>
+            <option value="Mexico">Mexico</option>
+            <option value="China">China</option>
+            <option value="India">India</option>
+             <option value="Columbia">Columbia</option>
+        </select>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+ </div>
+</body>
+</html>
