@@ -1,0 +1,21 @@
+
+/* Cointraffic.io */
+
+(function () {
+var ct_load = function(){
+var ct_script = document.createElement('script');
+ct_script.type = "text/javascript";
+
+var rn = Math.random()*1000000000000;
+
+ct_script.src = "https://apps3.cointraffic.io/bnr/?wkey=M4sKVb&rn=" + rn;
+document.getElementsByTagName('head')[0].appendChild(ct_script);
+
+};
+if (window.addEventListener) {
+window.addEventListener('load', ct_load, false);
+} else {
+window.attachEvent('onload', ct_load)
+}
+}());
+        

@@ -1,0 +1,18 @@
+/*
+#div-gpt-ad-1517714727704-0 {   
+    display:none;
+}
+*/
+
+.header-banner-close {
+    /* display:none;  */
+    z-index:1000;
+    color:#fff;
+}
+#header-banner-wrapper {
+    text-align:center;
+    background-color:#3754DF;
+    max-height:100px;
+}
+
+#header-banner-wrapper a:hover{text-decoration:none;}

@@ -1,0 +1,7 @@
+flask==1.0.2
+pytest==3.2.1
+flask-testing==0.7.1
+blinker==1.4.0
+flask-sqlalchemy==2.3.2
+flask-migrate==2.2.1
+werkzeug==0.16.0

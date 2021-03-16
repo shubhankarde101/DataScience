@@ -1,0 +1,9 @@
+Adform=window.Adform||{};
+Adform.host="https://a1.adform.net";
+Adform.shost="https://s2.adform.net";
+Adform.scriptBase=Adform.shost+"/banners/scripts/";
+Adform.cache="610";
+Adform.ADFBannerData={"URL":"https://a1.adform.net/adfserve/?bn=17955704;click=http://a.rfihub.com/acs/b/c3Q9aHRtbCZhYT0zMDU2NzM1LDExMDIwNTY3MSwxNTg0OTI3LDk1ODQzNTA5LDEwNzcwNywxMDIyODI3LDgwNTE0OTlkMTRjN2UyOTI1ODMzNjdlOGU0YTBiNTY3LHAsMTk1NzMsNDEwMjAxLDM0NTAwNjg5LDM1NDcwMyw4NzczNjcmbXQ9MSZyYj0xODI3JnJlPTMzNTQ5JmhjaT0mdXVpZD04NTcxMzU4ODE1MzE3OTIyNzQ1JmRpPSZkYz0zJmRpc3JjPTAmYmlwPTQyLjEwOS4xNTMuMTEyJmRpZD10aWRfMTAyMjgyN3xtZWRfcmVndWxhcg../n/","CREFURL":"https%3a%2f%2fcoinmarketcap.com%2f","BN":17955704};
+if(!Adform.ADFBannerParams)Adform.ADFBannerParams=[];
+Adform.ADFBannerParams.push(Adform.ADFBannerData);
+typeof Adform.ADFUtilInstance=="undefined"?document.write('<scr'+'ipt type="text/javascript" src="https://s2.adform.net/stoat/610/s2.adform.net/bootstrap.js"></scr'+'ipt>'):new Adform.ADFBanner();

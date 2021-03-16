@@ -1,0 +1,145 @@
+var ADFMediaURLs='';
+var ADF_clickTag='http://a.rfihub.com/acs/b/c3Q9aHRtbCZhYT0zMDU2NzM1LDExMDIwNTY3MSwxNTg0OTI3LDk1ODQzNTA5LDEwNzcwNywxMDIyODI3LDgwNTE0OTlkMTRjN2UyOTI1ODMzNjdlOGU0YTBiNTY3LHAsMTk1NzMsNDEwMjAxLDM0NTAwNjg5LDM1NDcwMyw4NzczNjcmbXQ9MSZyYj0xODI3JnJlPTMzNTQ5JmhjaT0mdXVpZD04NTcxMzU4ODE1MzE3OTIyNzQ1JmRpPSZkYz0zJmRpc3JjPTAmYmlwPTQyLjEwOS4xNTMuMTEyJmRpZD10aWRfMTAyMjgyN3xtZWRfcmVndWxhcg../n/https://a1.adform.net/C/?bn=17955704;adfibeg=90351873;cdata=c_6Nbdc9_9voQGLPKn2JJcbkv617zKVt0sUAs5Ckn9SJDAOUJT1txSDmhge6CwRYIkVt2JMogwqCVWMXlowkYzOvZtUWgCL5zCrGr-rrRchpCZz7qdxWQXtt2n4OwTFiOOkXWFHbX2_hQW6FXjSrzw2;;CREFURL=https%3a%2f%2fcoinmarketcap.com%2f';
+var ADF_ClickEvent='';
+var ADFtagID='1x';
+var ADFafbanID='17955704';
+var FlashObjectID='FlashID1x';
+var ADFDomain='https://s2.adform.net/Banners/';
+var ADFDomainCDN='https://files.adform.net/Banners/';
+var ADFVideoCDN='rtmp://s1yx966tga68s8.cloudfront.net/cfx/st/';
+var ADFVideoCDNList=['rtmp://s1yx966tga68s8.cloudfront.net/cfx/st/'];
+var ADFBanVer='770';
+var ADFBanVerBak='0';
+var ADFbu=false;
+var ADFerrTimeout = 15*24*60*60*1000;
+var ADFTemplateVersion='2';
+var ADFClientSiteId='63577';
+var ADFTemplateId='20640';
+var ADFGroupId='0';
+var ADFbanID='19115617';
+var ADFmembID='1530109';
+var ADFcmpgnID='906122';
+var ADFassetID='0';
+var ADFbanPlacID='2849597';
+var ADFUnloadID='2527410691606349225';
+var ADFGeoData='149146;10036;356';
+var Adform=window.Adform;if(!Adform&&_adfq)_adfq.push(["require",["Adform"],function(adform){Adform=window.Adform=adform}]);Adform=Adform||{};
+Adform.cache="610";
+Adform.locationInfo={Country: 'India', Region: 'Tamil nadu', City: 'Krishnagiri', Latitude: '12.5183', Longitude: '78.22995'};
+
+(function () {
+try{
+var i = Adform.ADFBannerUtils.getInstance()
+i.addBannerAttribute("1x", "bn", 17955704);
+i.addBannerAttribute("1x", "rotseqno", "1");
+i.addBannerAttribute("1x", "cookieID", "6074913141888079601");
+i.addBannerAttribute("1x", "smid", "0");
+i.addBannerAttribute("1x", "unloadID", "2527410691606349225");
+i.addBannerAttribute("1x", "height", 90);
+i.addBannerAttribute("1x", "width", 728);
+i.addBannerAttribute("1x", "pm", "906122");
+i.addBannerAttribute("1x", "visibilityArea", [50]);
+i.addBannerAttribute("1x", "visibilityTime", [1]);
+i.addBannerAttribute("1x", "ms", "1530109");
+i.addBannerAttribute("1x", "ban", "19115617");
+i.addBannerAttribute("1x", "serverTime", 1532348272794);
+i.addBannerAttribute("1x", "bannerVersion", "770");
+i.addBannerAttribute("1x", "csImpressionUrl", "https://a1.adform.net/csimpr/?bn=17955704&csi=2R4brpA4mquFWgrIAiVLg5w4Y4voU7VbY5gWv-iT-34YF7OH3XwzC-UHXfByss3xP_AkzPmEnsz0T2oV79IAZtRrPAe0Dx4QZR1AO2Rwr6RuJJXI3YWwOw2");
+i.addBannerAttribute("1x", "eData", "2R4brpA4mqs4If45j48uYUGgaAHoDPGu5IxvhskOR3eJEyFUdgTFNg_K-0_OPaEkTRlfRHDgHuVvzhmBRzJoGw2");
+i.addBannerAttribute("1x", "uData", "0gH3AWeUq37lB13wcrLN8T_wJMz5hJ7M9E9qFe_SAGbUazwHtA8eEGUdQDtkcK-k6dCWbZPhukE1");
+i.addBannerAttribute("1x", "trackingSetupId", "585850");
+i.addBannerAttribute("1x", "bnpl", "2849597");
+i.addBannerAttribute("1x", "sendUnloadData", 1);
+i.addBannerAttribute("1x", "unloadScriptVersion", 13);
+i.addBannerAttribute("1x", "isEventsEnabled", 1);
+i.addBannerAttribute("1x", "dcoEngineId", 2);
+i.setBannerRegisteredStatus("1x");
+}catch(e){}
+})();
+
+
+
+<!--
+var ADFtagid1369807477 = (typeof(ADFafbanID)!="undefined") ? ADFafbanID : 0;
+var ADFclickTagString1369807477 = (typeof(ADF_clickTag)!="undefined") ? escape(ADF_clickTag) : escape('https://a1.adform.net/C/?bn='+ADFtagid1369807477);
+var ADFclickTagParameters1369807477 = (typeof(ADF_clickTagPars)!="undefined") ? escape(ADF_clickTagPars) : '';
+var ADFclickEventString = (typeof(ADF_ClickEvent) != "undefined") ? escape(ADF_ClickEvent) : escape('https://a1.adform.net/C/?bn='+ADFtagid1369807477+';bsqno=1;li=1;cset=');
+var FlashObjectID=(typeof(FlashObjectID)!="undefined") ? FlashObjectID : 'adftest';
+var ADFDomain=(typeof(ADFDomain)!="undefined") ? ADFDomain : '';
+var ADFDomainCDN=(typeof(ADFDomainCDN)!="undefined") ? ADFDomainCDN : '';
+var ADFVideoCDN=(typeof(ADFVideoCDN)!="undefined") ? ADFVideoCDN : '';
+var ADFClientSiteId=(typeof(ADFClientSiteId)!="undefined") ? ADFClientSiteId : '';
+var ADFTemplateVersion=(typeof(ADFTemplateVersion)!="undefined") ? ADFTemplateVersion : '1369807477';
+var ADFTemplateId=(typeof(ADFTemplateId)!="undefined") ? ADFTemplateId : '';
+var ADFGroupId=(typeof(ADFGroupId)!="undefined") ? ADFGroupId : '';
+var ADFGeoData=(typeof ADFGeoData != "undefined" || ADFGeoData != null) ? ADFGeoData : '0;0;0';
+var ADFBanVer=(typeof(ADFBanVer)!="undefined") ? ADFBanVer : '1369807477';
+var ADFBanVerBak=(typeof(ADFBanVerBak)!="undefined") ? ADFBanVerBak : '1369807477';
+var ADFtagID=(typeof(ADFtagID)!="undefined") ? ADFtagID : '1x';
+if (typeof(ADFbu)=="undefined") ADFbu=false;
+
+var ADFcmpgnID = (typeof(ADFcmpgnID) != "undefined") ? ADFcmpgnID : '0';
+var ADFmembID = (typeof(ADFmembID) != "undefined") ? ADFmembID : '0';
+var ADFbanID = (typeof(ADFbanID) != "undefined") ? ADFbanID : '0';
+var ADFbanPlacID = (typeof(ADFbanPlacID) != "undefined") ? ADFbanPlacID : '0';
+var ADFUnloadID = (typeof(ADFUnloadID) != "undefined") ? ADFUnloadID : '0';
+
+
+var ADFclickTagVariables1369807477 = 'clickTAG='+ADFclickTagString1369807477+';C=1'+ADFclickTagParameters1369807477+'';
+if (ADFMediaURLs) ADFclickTagVariables1369807477 = ADFMediaURLs;
+
+
+
+if(typeof Adform == "undefined") {var Adform = {};};
+Adform.BannerData                    = {};
+Adform.Data                          = Adform.BannerData;
+Adform.RMBData                       = Adform.BannerData;
+Adform.RMBData.type                  = 'standard';
+Adform.RMBData.subtype               = 'rmb';
+Adform.BannerData.timestamp          = '201705181444218753'; // std @timestamp@ rev. @version@
+Adform.BannerData.ADFFlash           =  ADFDomain +'Elements/Files/63577/1906531/DCO MULTIproducto version April2017 728x90_main_asset/1906531.js?ADFassetID=1906531&bv='+ADFBanVer;
+
+Adform.BannerData.width              = "728";
+Adform.BannerData.height             = "90";
+Adform.BannerData.ADFid              = ADFtagID;
+Adform.BannerData.ADFban             = (typeof(ADFafbanID)!="undefined") ? ADFafbanID : 0;
+Adform.BannerData.wmode              = "opaque";
+Adform.RMBData.landingPageTarget     = "_blank";
+Adform.BannerData.quality            = "Autohigh";
+Adform.BannerData.bannerAlign        = "";
+Adform.RMBData.userParams            = {"url-prefix":"https://mm.melia.com/dynclick/melia-com/?ead-publisher=mhi_rocketfuel&ead-name=display-4_APAC_AO_AlwaysOn_May2017_RAPA_p-mhi_rocketfuel&ead-location=728x90&ead-creative=Always_on_restAPAC_pt_restAPAC_outboundAMECUBABRAZIL-c-mc-mc-en-May2017&ead-creativetype=728x90-DCO&eseg-name=no&eseg-item=no&ead-mediaplan=RAPA-Prospecting&eurl=","url-suffix":"?utm_medium=279317&utm_source=134151&utm_campaign=4_APAC_AO_AlwaysOn_May2017_RAPA&utm_term=728x90_DCO&utm_content=Always_on_restAPAC_pt_restAPAC_outboundAMECUBABRAZIL-c-mc-mc-en-May2017"};
+Adform.BannerData.clicktags          = 'cid='+ADFClientSiteId+'&geo='+ADFGeoData+'&gid='+ADFGroupId+'&tv='+ADFTemplateVersion+'&tid='+ADFTemplateId+'&domain='+ ADFDomain +'&bv='+ADFBanVer+'&ADFid='+ADFtagID+'&'+ADFclickTagVariables1369807477+'';
+Adform.BannerData.clicktags         += '&ADFcmpgnID='+ADFcmpgnID+'&ADFmembID='+ADFmembID+'&ADFbanID='+ADFbanID+'&ADFbanPlacID='+ADFbanPlacID+'&unloadID='+ADFUnloadID;
+Adform.BannerData.clicktags         += "&bn="+ADFtagid1369807477;
+Adform.BannerData.clicktags         += "&wmode=opaque";
+Adform.BannerData.clicktags         += "&evtBaseLink="+ADFclickEventString;
+
+Adform.BannerData.clicktags         += "&settingsXML=" +  ADFDomain + ADFbanID  + "/settings.xml?bv="+ADFBanVer;
+Adform.BannerData.clicktags         += "&ADFDomain=" + ( ADFDomain ).replace(/\/$/, "");
+
+
+
+
+
+Adform.RMBData.css =  ADFDomain  + "scripts/assets/css/Adform.RMB.css?bv="+ADFBanVer;
+
+
+
+
+
+
+
+
+
+Adform.BannerList = Adform.BannerList || [];
+Adform.BannerList.push(Adform.BannerData);
+
+if (!Adform.RMB || !Adform.RMB.AdConstructor) {
+	// Load constructor script
+	document.write('<scr' + 'ipt type="text/javascript" src="'+ ADFDomain +'scripts/rmb/Adform.RMB.js?bv='+ Adform.cache +'"></scr' + 'ipt>');
+} else {
+	// Run loaded constructor
+	Adform.RMB.AdConstructor.build();
+}
+//-->
+try{var i=window.Adform.ADFBannerUtils.getInstance();i.firePixel('https://mm.melia.com/dynview/melia-com/1x1.a?ead-publisher=mhi_rocketfuel&ead-name=display-4_APAC_AO_AlwaysOn_May2017_RAPA_p-mhi_rocketfuel&ead-location=728x90&ead-creative=Always_on_restAPAC_pt_restAPAC_outboundAMECUBABRAZIL-c-mc-mc-en-May2017&ead-creativetype=728x90-DCO&eseg-name=no&eseg-item=no&ead-mediaplan=RAPA-Prospecting&ea-rnd=2534');}catch(e){}
