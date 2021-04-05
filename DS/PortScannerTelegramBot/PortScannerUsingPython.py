@@ -78,20 +78,32 @@ def scan_ports(host_ip, protocol,portlow, porthigh):
      for i in range(portlow,porthigh):
         if output[i] != '':
             print("port {}       open   : {}".format(i,output[i]))
+            buffer.append("port {}       open   : {}".format(i,output[i]))
   except:
 
       print("invalid protocol: "+protocol+". Specify tcp or udp")
-
+      buffer.append("invalid protocol: "+protocol+". Specify tcp or udp")
 
 # nain function. Program starts from main
+buffer = []
+
+
 def main():
 
     host_ip = input("Enter host IP: ")
     protocol = input("Enter the Protol Name: ")
     portlow =  int(input("Enter the port low number: "))
-    porthigh = int(input("Enter the Protol high number: "))
+    porthigh= int(input("Enter the Protol high number: "))
     scan_ports(host_ip, protocol, portlow, porthigh)
+    return buffer
     #scan_ports("localhost", "UDP".lower(),0, 1000)
+
+
+def main1(host_ip='localhost',protocol='tcp',portlow=1,porthigh=1000):
+
+    scan_ports(host_ip.lower(),protocol.lower(),portlow, porthigh)
+    return buffer
+
 
 if __name__ == "__main__":
     main()
